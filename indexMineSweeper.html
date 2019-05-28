@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/cssMine.css" />
+</head>
+
+<body onload="init()" oncontextmenu="return false;" background="img/wallpapper.jpg">
+
+    <h2>Mine Sweeper </h2>
+    <img src="img/smiley_flat.png" class="smiley" onclick="playAgain()">
+
+    <table class="the-board"></table>
+    <div class="timer"> 0</div>
+    <div class="mine-counter"></div>
+    <div class="lifes"></div>
+    <div class="score"> </div>
+
+    <div class="hint">
+        <h3 class="hintExp">Hints work only after starting the game</h3>
+        <img onclick="useHint(this)" id="0" src="img/hint.png">
+        <img onclick="useHint(this)" id="1" src="img/hint.png">
+        <img onclick="useHint(this)" id="2" src="img/hint.png">
+
+    </div>
+
+    <div class="changeSizeDiv">
+        <a href="#" onclick="changeSize(4)" class="easy">easy</a>
+        <a href="#" onclick="changeSize(8)" class="medium">medium</a>
+        <a href="#" onclick="changeSize(12)" class="hard">hard</a>
+    </div>
+
+
+    <div class="gameOver">
+        <h2> GAME OVER</h2>
+        <button class="playAgain" onclick="playAgain()"> play again</button>
+
+    </div>
+
+    <div class="victory">
+        <h2> VICTORY</h2>
+        <button class="playAgain" onclick="playAgain()"> play again</button>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jsMine.js"></script>
+</body>
+
+
+</html>

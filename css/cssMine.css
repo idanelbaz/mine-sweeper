@@ -1,0 +1,255 @@
+.timer {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: blue;
+    background-color: orange;
+    margin: 20px auto;
+    float: inherit;
+}
+
+.mine-counter {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: blue;
+    background-color: orange;
+    margin: 0 auto;
+    float: inherit;
+}
+
+.score {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: blue;
+    background-color: orange;
+    margin: 20px auto;
+    float: inherit;
+}
+
+.the-board {
+    background-color: darkgray;
+    margin: 0 auto;
+    float: inherit;
+    width: auto;
+    /* border: 2px solid darkgray; */
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 1em;
+    visibility: visible;
+    border: 10;
+    color: blue;
+    background-color: aqua;
+    background-size: contain;
+    cursor: pointer;
+}
+
+h2 {
+    margin-left: 680px;
+    color: brown;
+}
+
+.changeSizeDiv {
+    width: auto;
+    height: 30px;
+    text-align: center;
+    color: blue;
+    margin: 100px auto;
+    float: inherit;
+}
+
+.hint {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: blue;
+    margin: 40px auto;
+}
+
+.hint img {
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin: 20px left;
+    cursor: pointer;
+}
+
+.gameOver {
+    position: absolute;
+    bottom: 400px;
+    visibility: hidden;
+    margin: 0 auto;
+    background-color: burlywood;
+    text-align: center;
+    height: 40px;
+}
+
+.victory {
+    position: absolute;
+    bottom: 400px;
+    visibility: hidden;
+    margin: 0 auto;
+    float: inline-start;
+    width: 1600px;
+    height: 40px;
+    background-color: burlywood;
+    text-align: left;
+}
+
+.victory button {
+    margin: 0 auto;
+    width: auto;
+    float: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.gameOver button {
+    margin-left: 430px;
+    position: relative;
+    cursor: pointer;
+}
+
+.lifes {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: blue;
+    background-color: orange;
+    margin: 20px auto;
+    float: inherit;
+}
+
+.smiley {
+    width: 60px;
+    height: 60px;
+    margin-left: 725px;
+    cursor: pointer;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateX(0deg)
+    }
+    to {
+        transform: rotateX(360deg)
+    }
+}
+
+.hintExp {
+    color: white;
+}
+
+
+/* 
+.hard {
+    background-image: url("../img/hard.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+} */
+
+
+/* .medium {
+    background-image: url("../img/medium.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+} */
+
+
+/* .easy {
+    background-image: url("../img/easy.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+} */
+
+.easy {
+    background-color: #44c767;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 14px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+.easy:hover {
+    background-color: #5cbf2a;
+}
+
+.easy:active {
+    position: relative;
+    top: 1px;
+}
+
+.medium {
+    background-color: yellow;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 1px solid lightyellow;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 14px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px darkorange;
+}
+
+.medium:hover {
+    background-color: darkgoldenrod;
+}
+
+.medium:active {
+    position: relative;
+    top: 1px;
+}
+
+.hard {
+    background-color: red;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 1px solid lightcoral;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 14px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px rgb(179, 53, 53);
+}
+
+.hard:hover {
+    background-color: rgb(179, 53, 53);
+}
+
+.hard:active {
+    position: relative;
+    top: 1px;
+}
